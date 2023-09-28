@@ -1,11 +1,14 @@
 body{
     display: flex;
-    
+
 }
 nav {
+
     margin-bottom: 6rem;
 }
 ul {
+    width: 1536px;
+    align-items: baseline;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,4 +33,16 @@ li a:hover{
 @font-face {
     font-family: Megdira;
     src: url(./Medgira.otf/)
+}
+.h1 {
+    top: 100px;
+    left: 50px;
+    clear: left;
+    position: absolute;
+}
+.img1 {
+    top: 100px;
+    left: 50px;
+    clear: left;
+    position: absolute;
 }

@@ -1,14 +1,40 @@
+
 body{
     display: flex;
 
 }
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body nav ul li img{
+    width: 75px;
+    height: 55px;
+    float: left;
+}
 nav {
 
     margin-bottom: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    border-radius: 20%;
+}
+div{
+    width: 1310px;
+    padding: 10px;
+    margin: 0; 
+    text-align:justify;
+    border-radius: 20px;
 }
 ul {
     width: 1536px;
     align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,6 +56,7 @@ li a {
 li a:hover{
     background-color: #111;
 }
+
 @font-face {
     font-family: Megdira;
     src: url(./Medgira.otf/)
@@ -46,3 +73,17 @@ li a:hover{
     clear: left;
     position: absolute;
 }
+
+
+.img1 {
+    width: 450px;
+    height: 300px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTziyMsiNp1FdgNd2TBx_ayDA-SS_Sc0tYicA&usqp=CAU) no-repeat;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    /* -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px; */
+}
+

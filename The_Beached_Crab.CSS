@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    margin: 0 auto;
+}
+nav {
+    margin-bottom: 6rem;
+}
+ul {
+    width: 1536px;
+    align-items: baseline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    top: auto;
+    left: auto;
+}
+
+li a {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+@font-face {
+    font-family: Megdira;
+    src: url(./Medgira.otf/)
+}
+
+
+.the_first_image{
+    height: 20px;
+    width: 20px;
+}

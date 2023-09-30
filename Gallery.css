@@ -49,10 +49,55 @@ li a:hover{
 
 /* Video */
 
-/* Grid for Photos */
+/*Images */
+.second_h1{
+    text-align: center;
+    top: 5000px;
+}
 .grid{
     display: grid;
-    grid-row: 1fr [one] 1fr[two] 1fr[three] 1fr[four] 1fr[five];
-    grid-column: 1fr[first] 1fr[second] 1fr[third] 1fr[fourth] 1fr[fifth];
-
+    grid-template-rows: 1fr [one] 1fr[two] 1fr[three] 1fr[four];
+    grid-template-columns: 1fr[first] 1fr[second] 1fr[third] 1fr[fourth];
+    align-items: center;
+    gap: 10px;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+.pic1{
+    grid-row: one/two;
+    grid-column: first/second;
+}
+.pic2{
+    grid-row: one/two;
+    grid-column:second/third;
+}
+.pic3{
+    grid-row: one/two;
+    grid-column: third/fourth;
+}
+.pic4{
+    grid-row: two/three;
+    grid-column: first/second;
+}
+.pic5{
+    grid-row:two/three;
+    grid-column: second/third;
+}
+.pic6{
+    grid-row: two/three;
+    grid-column: third/fourth;
+}
+.pic7{
+    grid-row: three/four;
+    grid-column: first/second;
+}
+.pic8{
+    grid-row: three/four;
+    grid-column:second/third;
+}
+.pic9{
+    grid-row: three/four;
+    grid-column: third/fourth;
 }

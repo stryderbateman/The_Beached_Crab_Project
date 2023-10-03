@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <article>
+        <div>
+            <nav class="topnav">
+                <ul>
+                    <img src="images/Screenshot (1).png" alt="crab" height="50" width="50">
+                    <li><a  href="The_Beached_Crab.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="List_of_Services.html">Our Services</a></li>
+                    <li><a class="active" href="form.html">Form</a></li>
+                    <div class="search-container">
+                        <form>
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="requests">requests</label>
+          <textarea id="subject" name="subject" placeholder="Write any special requests.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="deliver">deliver</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="carry">carry out</label><br>
+      </div>
+
+      <label class="container">2 people
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">3 people
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">4 people
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+</article>
+</body>
+</html>

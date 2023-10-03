@@ -2,6 +2,7 @@ body{
     display: flex;
     margin: 0 auto;
     background-image: url(images/pexels-pixabay-326333.jpg);
+    min-height: 100vh;
 }
 
 body {
@@ -125,25 +126,60 @@ li a:hover{
     cursor: pointer;
   }
 
- .logo1 {
-    transform: translate(-1500px, 55px);
- }
+  .logo1{
+    transform: translate(100px, -114.5px);
+  }
 
  h1{
     margin-left: auto;
     color: antiquewhite;
-    transform: translate(-1300px, 35px);
     top: 50px;
     text-align:center;
     font-size: 50px;
+    transform: translate(-100px , -100px);
  }
 
- p{
+ .p{
     display: flex;
     margin-left: auto;
     color: antiquewhite;
-    transform: translate(-2150px, 510px);
     top: 50px;
     text-align: left;
     font-size: 25px;
+    transform: translate(-640px, -270px);
  }
+
+ p{
+  display: flex;
+  margin-left: auto;
+  color: antiquewhite;
+  top: 50px;
+  text-align: left;
+  font-size: 25px;
+  
+}
+
+ html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  align-items: baseline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.email:hover{
+  background-color: #ddd;
+    color: orange;
+}
